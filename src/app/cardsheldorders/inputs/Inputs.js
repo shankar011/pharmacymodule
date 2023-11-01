@@ -13,7 +13,7 @@ const Inputs = () => {
         <span> <input type='date' /> </span>
       </div>
       <div className={styles.inputs}>
-        <input type='text' placeholder='Top medicine' />
+        <input type='text' placeholder='Brand Name' />
       </div>
     </div>
   )

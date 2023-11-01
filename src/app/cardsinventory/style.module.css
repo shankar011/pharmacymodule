@@ -85,9 +85,11 @@
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.75rem; /* 140% */
+    line-height: 1.75rem;
+    /* 140% */
 }
-.paymet img{
+
+.paymet img {
     margin: 1rem;
 }
 
@@ -134,4 +136,56 @@
     border: 1px solid #E6E6E6;
     background: #FFF;
     margin-bottom: 5px;
+}
+
+.mview {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .bottom {
+        display: none;
+    }
+
+    .return {
+        display: none;
+    }
+
+    .mview {
+        display: block;
+    }
+
+    .mreturn {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+
+    .mreturn span {
+        color: #2B2F38;
+        font-family: 'Raleway';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        /* 120% */
+    }
+
+    .mreturn button {
+        border: none;
+        display: flex;
+        width: 107.611px;
+        border-radius: 707.778px;
+        background: #7F82FF;
+        justify-content: center;
+        align-items: center;
+        gap: 4.333px;
+        color: #FFF;
+        font-family: 'Raleway';
+        font-size: 8.667px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 14.444px;
+        /* 166.667% */
+    }
 }

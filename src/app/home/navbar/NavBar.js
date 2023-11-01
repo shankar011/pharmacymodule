@@ -1,3 +1,5 @@
+"use client";
+import { useState } from 'react';
 import React from 'react';
 import Image from 'next/image';
 import styles from "./style.module.css";
@@ -7,7 +9,11 @@ import dawamobile from "../../../../public/images/dawamobilelogo.png";
 import menu from "../../../../public/images/humberger.png";
 
 
+
 const NavBar = () => {
+
+  
+
     return (
         <div className={styles.container}>
             <div className={styles.mobileview}>
@@ -18,12 +24,16 @@ const NavBar = () => {
             <nav>
                 <div className={styles.mobile}>
                     <span className='me-4'> <Image src={bell} /> </span>
-                    <span > <Image src={signin} /> </span>
+                    <span > <Image  src={signin} /> </span>
                 </div>
             </nav>
             <div className={styles.hello}>
-                <span > <Image src={signin} /> Hello John Doe! </span>
+                <span   > <Image src={signin} /> Hello John Doe! </span>
             </div>
+
+
+            
+
 
         </div>
     )

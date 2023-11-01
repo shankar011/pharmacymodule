@@ -33,7 +33,7 @@ const Payment = () => {
                         <input type="email" className="form-control" aria-describedby="emailHelp" />
                     </div>
 
-                    <div className="mb-2flex-wrap">
+                    <div className="mb-2 flex-wrap">
                         <label for="exampleInputPassword1" className="form-label"> <span><Image src={phone} alt="img" /> </span>Mobile number</label>
                         <input type="password" className="form-control" />
                     </div>

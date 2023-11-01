@@ -2,6 +2,7 @@
 
 .container {
     width: 80rem;
+    height: auto;
     margin-top: 3rem;
     padding: 1.25rem 2.5rem;
     padding-bottom: 2%;
@@ -27,6 +28,7 @@
 .container form {
     display: flex;
     flex-wrap: wrap;
+    height: auto;
     justify-content: space-between;
 }
 
@@ -60,4 +62,20 @@
     font-weight: 500;
     line-height: 1rem;
     /* 133.333% */
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        display: block;
+        width: 360px;
+        height: auto;
+    }
+
+    .container form {
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .days{
+        display: none;
+    }
 }

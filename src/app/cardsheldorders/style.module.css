@@ -5,6 +5,7 @@
     height: fit-content;
     padding: 2%;
     scroll-behavior: auto;
+    height: auto;
 }
 
 .return {
@@ -47,4 +48,12 @@
     line-height: 1.25rem;
     /* 142.857% */
     background: #7F82FF;
+}
+@media screen and (max-width:768px) {
+    .container {
+        background: #F5F4F7;
+        height: fit-content;
+        scroll-behavior: auto;
+        height: 100dvh;
+    }
 }

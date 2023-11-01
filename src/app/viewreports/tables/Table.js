@@ -7,7 +7,7 @@ const Table = () => {
     return (
         <div className={styles.container}>
             <div className={styles.tables}>
-                <div className='d-flex'>
+                <div className='d-flex '>
                     <h6>Top Selling</h6>
                     <p>See all</p>
                 </div>

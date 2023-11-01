@@ -9,18 +9,18 @@ const Payment = () => {
             <p>Payment details</p>
             <form>
                 <div>
-                    <label htmlForfor="exampleInputSelect" class="form-label">Payable method<span><Image src={star} alt='img' /> </span></label>
-                    <select class="form-select">
+                    <label htmlForfor="exampleInputSelect" className="form-label">Payable method<span><Image src={star} alt='img' /> </span></label>
+                    <select className="form-select">
                         <option>Credit</option>
                     </select>
                 </div>
-                <div>
+                <div className={styles.days}>
                     <label htmlFor='days' className="form-label">Days<span><Image src={star} alt='img' /> </span></label>
                     <input type="text" placeholder='45 days' className="form-control" />
                 </div>
                 <div>
-                    <label htmlForfor="exampleInputSelect" class="form-label">Payable method<span><Image src={star} alt='img' /> </span></label>
-                    <select class="form-select">
+                    <label htmlForfor="exampleInputSelect" className="form-label">Payable method<span><Image src={star} alt='img' /> </span></label>
+                    <select className="form-select">
                         <option>Unpaid</option>
                     </select>
                 </div>

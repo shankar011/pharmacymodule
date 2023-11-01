@@ -16,12 +16,8 @@ import quantity from "../../../public/images/quantity.png"
 import mtype from "../../../public/images/mtype.png"
 import date from "../../../public/images/expirydate.png"
 import purchase from "../../../public/images/purchase.png"
-
-
-
-
-
-
+import Inputs from './minputs/Inputs';
+import Mtable from './mtable/Mtable';
 
 
 
@@ -40,7 +36,18 @@ const page = () => {
     return (
         <div>
             <NavBar />
+
             <div className={styles.container}>
+
+                <div className={styles.mview}>
+                    <div className={styles.mreturn}>
+                        <span><Image className='me-2' height={18} src={arrow} alt="img" />Add new medicine</span>
+                        <button>Add New</button>
+                    </div>
+                    <Inputs />
+                    <Mtable />
+                </div>
+
                 <div className={styles.return}>
                     <span><Image className='me-2' height={18} src={arrow} alt="img" />Update inventory</span>
                 </div>
@@ -85,7 +92,7 @@ const page = () => {
                                 </div>
 
                                 <div className="m-3">
-                               <span><Image src={batch} alt='img' /> </span>
+                                    <span><Image src={batch} alt='img' /> </span>
                                     <label for="exampleInputBatchNo" className="form-label">Batch no.</label>
                                     <input type="number" placeholder='Enter batch no.' className="form-control" />
 
@@ -101,7 +108,7 @@ const page = () => {
                                         <option value="2">Powder</option>
                                         <option value="3">Syrup</option>
                                     </select>
-                                    
+
                                     <span><Image src={date} alt='img' /> </span>
                                     <label for="exampleInputdate" className="form-label">Expiry date</label>
                                     <input type="date" placeholder='select expiry date' className="form-control" />

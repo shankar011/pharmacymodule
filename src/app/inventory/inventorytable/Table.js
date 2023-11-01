@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import styles from "./style.module.css";
 import Image from 'next/image';
@@ -8,6 +6,13 @@ import remove from "../images/remove.png";
 import tablet from "../images/tablet.png";
 import powder from "../images/powder.png";
 import doumble from "../images/doumble.png";
+import aspire from "../images/aspire.png";
+import files from "../images/edit.png";
+import dis from "../images/dis.png";
+import shelf from "../images/dis.png";
+import quantity from "../images/dis.png";
+import expiry from "../images/expiry.png";
+
 
 
 function Table() {
@@ -176,6 +181,7 @@ function Table() {
                 </tbody>
             </table>
 
+            
 
         </div>
     )

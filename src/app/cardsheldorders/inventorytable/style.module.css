@@ -72,6 +72,84 @@
 .percentage {
     color: #056e2d;
 }
-.bottom{
+
+.bottom {
     margin-left: 60rem;
+}
+
+.morder {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .container table {
+        display: none;
+    }
+    
+
+    .bottom {
+        display: none;
+    }
+
+    .morder {
+        padding: 4px;
+        position: absolute;
+        display: inline-block;
+        width: 392.619px;
+        height: auto;
+        flex-shrink: 0;
+        border-radius: 11px;
+        background: #FFF;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .top {
+        display: flex;
+    }
+
+    .top p {
+        color: #858D9D;
+        font-family: 'Raleway';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        /* 142.857% */
+    }
+
+    .top span {
+        margin-left: 1rem;
+    }
+
+    .top span img {
+        margin-left: 3rem;
+    }
+
+    .list_medicines {
+        display: flex;
+    }
+
+    .list_medicines ul {
+        list-style: none;
+    }
+
+    .left li {
+        color: #858D9D;
+        font-family: 'Raleway';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        /* 142.857% */
+    }
+
+    .right li {
+        color: #262626;
+        font-family: 'Raleway';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        /* 142.857% */
+    }
 }

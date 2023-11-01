@@ -125,3 +125,119 @@
     line-height: 1.25rem;
     /* 142.857% */
 }
+
+.details {
+    display: none;
+}
+.mdetails{
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .container table {
+        display: none;
+    }
+    .container button{
+        display: none;
+    }
+  
+    .container{
+        width: 360px;
+        height: auto;
+        flex-shrink: 0;
+    }
+
+     .cart h4 {
+        margin: 2rem 0rem 0.5rem 2rem;
+    }
+    .cart p{
+        display: none;
+    }
+
+    .details {
+        display: block;
+        margin-top: 2rem;
+        width: 360px;
+        height: auto;
+        flex-shrink: 0;
+    }
+    .details hr{
+        position: relative;
+    }
+
+    .name {
+        display: flex;
+        justify-content: space-between;
+        margin: 0rem 1rem 0rem 1rem;
+    }
+
+    .name p {
+        color: #262626;
+        font-family: 'Raleway';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        /* 142.857% */
+    }
+
+       .details ul{
+        list-style: none;
+       }
+    
+
+    .lists_1 ul  li{
+        list-style: none;
+        margin-top: 2%;
+    }
+
+    .list_1 li {
+        color: #858D9D;
+        font-family: 'Raleway';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        margin-bottom: 3%;
+    }
+
+    .list_2 li {
+        color: #262626;
+        font-family: 'Raleway';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        /* 142.857% */
+        margin-bottom: 3%;
+    }
+
+    .list_2 li input {
+        width: 45.61px;
+        height: 21.53px;
+        flex-shrink: 0;
+        border-radius: 0.5rem;
+        border: 0.5px solid #858D9D;
+        padding: 5px;
+        flex-shrink: 0;
+        fill: #FFF;
+        stroke-width: 0.5px;
+        stroke: #858D9D;
+    }
+
+    .list_2 .price {
+        color: #056e2d;
+        font-style: italic;
+        margin-left: 1%;
+    }
+
+    .percentage {
+        color: #056e2d;
+    }
+
+    .mdetails{
+        display: block;
+        width: auto;
+        height: auto;
+    }
+}

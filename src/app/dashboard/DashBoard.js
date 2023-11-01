@@ -1,7 +1,8 @@
-// components/Dashboard.js
+"use client";
 import React from 'react';
-import Sidebar from '../slidebar/Sidebar';
-import styles from "./style.module.css";
+import Sidebar from '../sidebar/Sidebar';
+import styles from './style.module.css';
+
 
 const Dashboard = ({ children }) => {
   return (
@@ -10,7 +11,8 @@ const Dashboard = ({ children }) => {
         <Sidebar />
       </div>
       <div className={styles.content}>
-        {children} 
+        {children}
+       
       </div>
     </div>
   );

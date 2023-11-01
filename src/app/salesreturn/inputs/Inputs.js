@@ -17,6 +17,7 @@ const Inputs = () => {
         <input type='text' placeholder='Medicine' />
         <input type='number' placeholder='mobile number' />
         <input type='text' placeholder='customer number' />
+        <button>Search</button>
       </div>
     </div>
   )

@@ -163,3 +163,43 @@
     line-height: 1.25rem;
     margin-left: 1rem;
 }
+
+@media screen and (max-width: 700px) {
+   
+
+    .return {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .return h1 {
+        color: #2B2F38;
+        font-family: 'Raleway';
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        /* 120% */
+
+    }
+
+    .return button {
+        
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        background: #7F82FF;
+        color: #FFF;
+        font-family: 'Raleway';
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        /* 200% */
+    }
+
+    .bottom{
+        display: none;
+    }
+}

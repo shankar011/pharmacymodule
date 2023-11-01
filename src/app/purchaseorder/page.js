@@ -26,10 +26,10 @@ const page = () => {
 
 
     return (
-        <div>
+        <div className={styles.container}>
             <NavBar />
             <hr />
-            <div className={styles.container}>
+            <div className={styles.section}>
                 <div className={styles.return}>
                     <span><Image height={15} src={arrow} alt="img" />  Create purchase order </span>
                 </div>

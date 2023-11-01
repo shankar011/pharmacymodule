@@ -1,9 +1,13 @@
 
-
 import React from 'react';
+import Link from 'next/link';
 import styles from "./style.module.css";
 import Image from 'next/image';
 import edit from "../images/edit.png";
+
+
+
+
 
 function Table() {
     return (
@@ -25,7 +29,7 @@ function Table() {
                 <tbody>
                     <tr>
                         <td>04-05-2023</td>
-                        <td>Inv001</td>
+                        <td><Link href="../invoice">Inv001</Link> </td>
                         <td>Synthroid</td>
                         <td>9455575237</td>
                         <td>Annette Black</td>
@@ -38,40 +42,7 @@ function Table() {
                         <td>7555713647</td>
                         <td>Ralph Edwards</td>
                         <td><Image src={edit} alt='img' /> </td>
-                    </tr>
-                    <tr>                   
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>Discount provided:</td>
-                        <td>₹300</td>                       
-                    </tr>
-                    <tr >                   
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>Previous total:</td>
-                        <td>₹1028</td>            
-                    </tr>
-                    <tr>                   
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td>Suggested return amount:</td>
-                        <td>₹516</td>                        
-                    </tr>
-                    <tr>                   
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td><b>Actual return amount:</b></td>
-                        <td><input type='number' placeholder='Enter amount' /></td>                        
-                    </tr>
-                    
+                    </tr>      
                 </tbody>
             </table>
 

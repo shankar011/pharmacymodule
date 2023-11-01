@@ -14,7 +14,7 @@ import current from "../images/current.png"
 
 const Cards = () => {
     return (
-        <div className='d-flex mt-5 ms-2 me-2 justify-content-between'>
+        <div className='d-flex flex-wrap mt-5 ms-2 me-2 justify-content-between'>
             <div className={styles.card}>
                 <div className={styles.img_1}> <Image src={sales} alt='img' /></div>
                 <p>Sales Order Transactions <br /> <sapn className={styles.mtd}>(MTD)</sapn> </p>

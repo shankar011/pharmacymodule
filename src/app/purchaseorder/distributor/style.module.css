@@ -31,7 +31,6 @@
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
     margin: 20px 0px 20px 20px;
 }
 
@@ -171,7 +170,7 @@
     /* 142.857% */
 }
 
-.list_2 li{
+.list_2 li {
     color: #2B2F38;
     font-family: 'Raleway';
     font-size: 1rem;
@@ -179,4 +178,125 @@
     font-weight: 500;
     line-height: 1.25rem;
     margin-bottom: 3%;
+}
+
+.mselect {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .select {
+        display: none;
+    }
+
+    .mselect {
+        display: block;
+        width: 355px;
+        height: auto;
+        padding: 1rem;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .carts {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .carts h4 {
+        color: #2B2F38;
+        font-family: 'Raleway';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        /* 133.333% */
+    }
+
+    .carts button {
+        border: none;
+        display: flex;
+        width: 101px;
+        height: 28px;
+        border-radius: 980px;
+        background: #DDD;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        flex-shrink: 0;
+        color: #888;
+        font-family: 'Raleway';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        /* 166.667% */
+    }
+
+    .select form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .mselect form label {
+        color: #2B2F38;
+        font-family: 'Raleway';
+        font-size: 0.87131rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 0.89506rem;
+        /* 133.333% */
+    }
+
+    .mselect form input {
+        height: 36px;
+        padding: 8px 16px;
+        align-items: center;
+        gap: 10px;
+        border-radius: 980px;
+        border: 1px solid #E6E6E6;
+        background: #FFF;
+    }
+
+    .mselect form select {
+        height: 36px;
+        padding: 8px 16px;
+        align-items: center;
+        gap: 10px;
+        border-radius: 980px;
+        border: 1px solid #E6E6E6;
+        background: #FFF;
+    }
+
+    .details {
+        margin-top: 2rem;
+        width: 355.094px;
+        height: auto;
+        flex-shrink: 0;
+    }
+
+    .list_1 li {
+        color: #858D9D;
+        font-family: 'Raleway';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        margin-bottom: 3%;
+    }
+
+    .list_2 li {
+        color: #262626;
+        font-family:'Raleway';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px; /* 142.857% */
+        margin-bottom: 3%;
+    }
+
+
 }

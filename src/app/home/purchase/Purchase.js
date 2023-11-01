@@ -6,7 +6,7 @@ import circle from "../../../../public/images/circle.png"
 import cart from "../../../../public/images/cart.png"
 import watch from "../../../../public/images/watch.png"
 import downarrow from "../../../../public/images/downarrow.png"
-import rcircle from "../../../../public/images/return.png"
+import rcircle from "../../../../public/images/returned.png"
 
 
 const Purchase = () => {
@@ -23,7 +23,10 @@ const Purchase = () => {
                     </div>
                     <div className='d-flex flex-sm-wrap justify-content-between p-3'>
 
+                        <div className={styles.circle}> 
+
                         <Image src={circle} alt='img' />
+                        </div>
                         
 
                         <div className={styles.margin}>
@@ -38,7 +41,7 @@ const Purchase = () => {
                             <h6>332</h6>
                             <h6>332</h6>
                             <h6>332</h6>
-                            <h6>332</h6>
+                           
                         </div>
                     </div>
                 </div>

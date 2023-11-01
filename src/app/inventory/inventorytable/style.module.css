@@ -2,8 +2,8 @@
 
 
 .container {
-    width: 80rem;
-
+    width: 83rem;
+    position: relative;
     margin-top: 2%;
 }
 .container table{
@@ -50,4 +50,10 @@
     border-radius: 61.25rem;
     border: 1px solid #E6E6E6;
     background: #FFF;
+}
+@media screen and (max-width:768px) {
+    .container{
+        display: none;
+    }
+    
 }

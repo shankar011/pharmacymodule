@@ -80,3 +80,36 @@
     background: #7F9CFF;
     color: #FFFFFF;
 }
+
+@media screen and (max-width:768px) {
+    .container {
+        display: block;
+        width: 360px;
+        height: auto;
+    }
+
+    .container form {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .container form button {
+        position: relative;
+        margin-left: 10rem;
+        display: flex;
+        width: 126.061px;
+        padding: 5.042px 48.533px 5.042px 49.164px;
+        justify-content: center;
+        align-items: center;
+        gap: 3.782px;
+        color: #FFF;
+        font-family: 'Raleway';
+        font-size: 8.824px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 12.606px;
+        /* 142.857% */
+    }
+
+
+}

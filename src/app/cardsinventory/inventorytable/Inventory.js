@@ -9,7 +9,7 @@ const Inventory = () => {
     <div className={styles.container}>
         <p>Your inventory</p>
 
-        <table className="table">
+        <table>
                 <thead>
                     <tr>
                         <th scope="col">Medicine</th>
@@ -70,6 +70,7 @@ const Inventory = () => {
                     </tr>              
                 </tbody>
             </table>
+
 
     </div>
   )

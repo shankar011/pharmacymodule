@@ -1,14 +1,17 @@
 import Dashboard from "./dashboard/DashBoard";
-import  DashboardHome from "./dashboradhome/page";
+import Homes from "./home/page"
 
+//Pharmacy Module
 
-
-export default function Home() {
+export default function Home({ children }) {
   return (
     <div>
-     <Dashboard>
-      < DashboardHome />
-     
+      <Dashboard>
+        {
+          
+          <Homes />
+
+        }
       </Dashboard>
     </div>
   )

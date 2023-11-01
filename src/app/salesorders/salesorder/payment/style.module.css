@@ -107,3 +107,41 @@
     border: 1px solid #E6E6E6;
     background: #FFF;
 }
+
+@media screen and (max-width: 700px) {
+
+    .container {
+        margin-top: 5dvh;
+        width: 360.316px;
+        height:auto;
+        flex-shrink: 0;
+
+    }
+
+    .paymet {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .option input {
+        display: none;
+    }
+
+    .forms input {
+        display: flex;
+        width: 40dvh;
+        height: 36px;
+        padding: 8px 16px;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        flex: 1 0 0;
+        color: #858D9D;
+        font-family: 'Raleway';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        /* 142.857% */
+    }
+}

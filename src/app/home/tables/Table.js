@@ -19,9 +19,9 @@ const Table = () => {
             <table className={styles.tablemain}>
                 <thead >
                     <tr className={styles.head}>
-                        <th className='ps-4'> Name</th>
-                        <th className='ps-4'>Medicines Purchased</th>
-                        <th className='ps-4'>Delivery Awaiting</th>
+                        <th> Name</th>
+                        <th>Medicines Purchased</th>
+                        <th>Delivery Awaiting</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -55,9 +55,9 @@ const Table = () => {
             <table className={styles.tablemain}>
                 <thead >
                     <tr className={styles.head}>
-                        <th className='ps-4'> Name</th>
-                        <th className='ps-4'>No. of orders</th>
-                        <th style={{paddingLeft:"100px"}}>Order amount</th>
+                        <th> Name</th>
+                        <th>No. of orders</th>
+                        <th style={{paddingLeft:"80px"}}>Order amount</th>
                     </tr>
                 </thead>
                 <tbody>

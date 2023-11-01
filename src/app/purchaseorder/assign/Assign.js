@@ -20,7 +20,7 @@ const Assign = () => {
                         <option>Credit</option>
                     </select>
                 </div>
-                <div>
+                <div className={styles.dates}>
                     <label htmlFor='days' className="form-label">Delivery Date<span><Image src={star} alt='img' /> </span></label>
                     <input type="date" placeholder='45 days' className="form-control" />
                 </div>
