@@ -43,6 +43,13 @@
 
 
 @media screen and (max-width:768px) {
+
+    .container {
+        background: #F5F4F7;
+        height: auto;
+        scroll-behavior: auto;
+    }
+
     .return span {
         color: #2B2F38;
         font-family: 'Raleway';

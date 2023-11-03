@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from "./style.module.css";
-import person from "../../images/personfill.png";
-import phone from "../../images/phone_fill.png";
-import hospital from "../../images/hospital.png";
+import person from "../images/personfill.png";
+import phone from "../images/phone_fill.png";
+import hospital from "../images/hospital.png";
 
 
 

@@ -109,4 +109,4 @@ const Mtable = () => {
     )
 }
 
-export default Mtable
+export default Mtable;

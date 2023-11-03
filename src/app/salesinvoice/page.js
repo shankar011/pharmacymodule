@@ -2,12 +2,12 @@
 import { useState } from 'react';
 import React from 'react'
 import styles from "./style.module.css";
-import NavBar from '../topnav/NavBar'
+import NavBar from './topnav/NavBar'
 import Image from 'next/image'
-import arrow from "../images/leftarrow.png"
+import arrow from "./images/leftarrow.png"
 import Table from "./ordertable/Table";
 import Customer from "./customerdetails/Customer";
-import cross from "../../../../public/images/cross.png";
+import cross from "../../../public/images/cross.png";
 
 const page = () => {
 

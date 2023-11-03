@@ -103,6 +103,10 @@
 .percentage {
     color: #056e2d;
 }
+.container button a{
+    text-decoration: none;
+    color: #FFF;
+}
 
 .container button {
     margin-left: 65rem;

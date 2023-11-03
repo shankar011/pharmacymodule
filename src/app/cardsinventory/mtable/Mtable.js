@@ -1,3 +1,5 @@
+"use client";
+import { useState } from 'react';
 import React from 'react';
 import styles from "./style.module.css";
 import Image from 'next/image';
@@ -8,17 +10,39 @@ import dis from "../images/dis.png";
 import expiry from "../images/expiry.png";
 import quantity from "../images/quantity.png";
 import shelf from "../images/shelf.png";
+import cross from "../images/cross.png"
 
+import medicine from "../../../../public/images/medicine.png"
+import brand from "../../../../public/images/brand.png"
+import distributor from "../../../../public/images/distributor.png"
+import batch from "../../../../public/images/batch.png"
+import mtype from "../../../../public/images/mtype.png"
+import date from "../../../../public/images/expirydate.png"
+import purchase from "../../../../public/images/purchase.png"
 
 const Mtable = () => {
+
+    const [showMessage, setShowMessage] = useState(false);
+
+    const handleButtonClick = () => {
+        setShowMessage(true);
+    };
+
+    const closeModal = () => {
+        setShowMessage(false);
+    };
+
     return (
         <div className={styles.container}>
+
+
+
             <div className={styles.msection}>
                 <div className={styles.details}>
                     <div className={styles.name}>
                         <p>1. <Image src={aspire} alt='img' />Aspirine <span> (Brand - Bayer AG)</span></p>
                         <div className={styles.img_1}>
-                            <Image src={files} alt='img' />
+                            <Image onClick={handleButtonClick} src={files} alt='img' />
                             <Image src={remove} alt='img' />
                         </div>
 
@@ -43,6 +67,8 @@ const Mtable = () => {
                     </div>
                 </div>
             </div>
+
+          
 
             <div className={styles.msection}>
                 <div className={styles.details}>

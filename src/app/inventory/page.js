@@ -41,12 +41,13 @@ const page = () => {
                 <h1>Inventory</h1>
                 <button onClick={handleButtonClick}>Update inventory</button>
             </div>
+        
             {showMessage && (
                 <div className={styles.modal}>
 
                     <div className={styles.modal_content}>
                         <div className={styles.paymet}>
-                            <p>Update inventory</p>
+                            <p>Add new medicine</p>
                             <Image onClick={closeModal} src={cross} />
                         </div>
 
@@ -112,7 +113,7 @@ const page = () => {
             <div className={styles.mview}>
                 <div className={styles.mreturn}>
                     <span><Image className='me-2' height={18} src={arrow} alt="img" />Add new medicine</span>
-                    <button>Add New</button>
+                    <button onClick={handleButtonClick}>Add New</button>
                 </div>
                 <Minputs />
                 <Mtable />

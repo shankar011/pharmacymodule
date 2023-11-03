@@ -28,27 +28,31 @@ const NavBar = () => {
 
     const toggleMenu = () => {
         setShowMenu(!showMenue);
-      };
+    };
 
     return (
         <div className={styles.container}>
             <div className={styles.mobileview}>
                 <Image src={dawamobile} alt="img" />
-                <Image  style={{ position: "relative" }}  onClick={() => { toggleMenu() }} src={menu} width={30} height={20} alt='img' />
+                <Image style={{ position: "relative" }} onClick={() => { toggleMenu() }} src={menu} width={30} height={20} alt='img' />
             </div>
 
             <div className={styles.hover}>
-                <div style={{ listStyle: "none", display: showMenue? 'block' : "none" }}>
-                    <Sidebar/>
+                <div style={{ listStyle: "none", display: showMenue ? 'block' : "none" }}>
+                    <Sidebar />
                 </div>
-          </div>
+            </div>
 
 
             <nav>
                 <div className={styles.mobile}>
-                    <span className='me-4'> <Image src={bell} /> </span>
-                    <span > <Image onClick={handleButtonClick} src={signin} /> </span>
+                    <p>Hello John Doe</p>
+                    <div>
+                        <span className='me-4'> <Image src={bell} /> </span>
+                        <span > <Image onClick={handleButtonClick} src={signin} /> </span>
+                    </div>
                 </div>
+                <hr/>
 
                 {showMessage && (
                     <div className={styles.modal}>

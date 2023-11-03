@@ -29,7 +29,7 @@ function Table() {
                 <tbody>
                     <tr>
                         <td>04-05-2023</td>
-                        <td><Link href="../invoice">Inv001</Link> </td>
+                        <td><Link href="./salesinvoice">Inv001</Link> </td>
                         <td>Synthroid</td>
                         <td>9455575237</td>
                         <td>Annette Black</td>

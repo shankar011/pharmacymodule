@@ -111,8 +111,10 @@
 @media screen and (max-width: 700px) {
 
     .container {
+        object-fit: contain;
         margin-top: 5dvh;
-        width: 360.316px;
+        width: 45dvh;
+        margin-left: 1rem;
         height:auto;
         flex-shrink: 0;
 

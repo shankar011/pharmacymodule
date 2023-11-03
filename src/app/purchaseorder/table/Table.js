@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "./style.module.css";
+import Link from 'next/link';
 import edit from "../images/edit.png";
 import Image from 'next/image';
 import uparrow from "../images/uparrow.png";
@@ -261,7 +262,7 @@ const Table = () => {
                 </div>
             </div>
 
-            <button>Pay</button>
+            <button><Link href="./trackpayments">Pay</Link></button>
 
         </div>
     )

@@ -45,7 +45,7 @@ const Sidebar = () => {
         <li>
           <span><Image src={person} /></span>
           <select onChange={handleOptionSelect}>
-            <option value="./mpprofile">My Profile</option>
+            <option value="./myprofile">My Profile</option>
             <option value="./mpmyemployee">My employees</option>
             <option value="./mpdistribution">My distributors</option>
             <option value="./mphospitals">My hospital / doctor</option>
