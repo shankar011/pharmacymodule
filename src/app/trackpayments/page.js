@@ -30,6 +30,9 @@ const page = () => {
                 <div className={styles.mbottom}>
                     <button>Save po</button>
                 </div>
+
+              
+
             </div>
             <div className={styles.bottom}>
                 <button>Checkout</button>

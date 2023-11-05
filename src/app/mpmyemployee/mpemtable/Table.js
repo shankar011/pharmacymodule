@@ -1,5 +1,6 @@
 
-
+'use client'
+import { useState } from 'react';
 import React from 'react';
 import styles from "./style.module.css";
 import Image from 'next/image';
@@ -16,6 +17,7 @@ import call from "../images/phone.png";
 import mail from "../images/email.png";
 import edits from "../images/edit.png";
 import close from "../images/remove.png"
+import cross from "../../../../public/images/cross.png"
 
 
 
@@ -23,6 +25,18 @@ import close from "../images/remove.png"
 
 
 function Table() {
+
+    const [showMessage, setShowMessage] = useState(false);
+
+    const handleButtonClick = () => {
+        setShowMessage(true)
+    }
+    const closeModal = () => {
+        setShowMessage(false)
+    }
+
+  
+
     return (
         <div className={styles.container}>
 
@@ -40,7 +54,71 @@ function Table() {
                 <tbody>
                     <tr>
                         <td>Savannah Nguyen</td>
-                    
+
+                        <td>9455575237 </td>
+                        <td>14/02/2022</td>
+                        <td>sara.cruz@example.com</td>
+                        <td>
+                            <span><Image src={first} alt='img' /> </span>
+                            <span className='ps-2'><Image src={second} alt='img' /> </span>
+                            <span className='ps-2'><Image src={third} alt='img' /> </span>
+
+                        </td>
+                        <td><span><Image src={edit} alt='img' /></span><span onClick={handleButtonClick}  className='ms-3'><Image  src={remove} alt='img' /> </span>  </td>
+                    </tr>
+
+                    {showMessage && (
+                    <div className={styles.modal}>
+
+                        <div className={styles.modal_content}>
+                            <div className={styles.paymet}>
+                                <p>Remove distriburor</p>
+                                <Image onClick={closeModal} src={cross} />
+                            </div>
+
+                            <div className="pb-4">
+                                <form className={styles.forms}>
+                                    <div className={styles.para_1}>
+                                        <p>Are you sure you want to remove <b>Annette Black</b> as your distributor?</p>
+                                    </div>
+
+                                    <div className="d-flex">
+                                       
+                                    <button onClick={closeModal}>No</button>
+                                    <button>Remove</button>
+
+                                    </div>
+                                </form>
+
+                              
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                )}
+                   
+                 
+
+                    <tr>
+                        <td>Savannah Nguyen</td>
+
+                        <td>9455575237 </td>
+                        <td>14/02/2022</td>
+                        <td>sara.cruz@example.com</td>
+                        <td>
+                            <span><Image src={first} alt='img' /> </span>
+                            <span className='ps-2'><Image src={second} alt='img' /> </span>
+                            <span className='ps-2'><Image src={third} alt='img' /> </span>
+
+                        </td>
+                        <td><span><Image src={edit} alt='img' /></span><span className='ms-3'><Image src={remove} alt='img' /> </span>  </td>
+                    </tr>
+
+                    <tr>
+                        <td>Savannah Nguyen</td>
+
                         <td>9455575237 </td>
                         <td>14/02/2022</td>
                         <td>sara.cruz@example.com</td>
@@ -54,36 +132,7 @@ function Table() {
                     </tr>
                     <tr>
                         <td>Savannah Nguyen</td>
-                    
-                        <td>9455575237 </td>
-                        <td>14/02/2022</td>
-                        <td>sara.cruz@example.com</td>
-                        <td>
-                            <span><Image src={first} alt='img' /> </span>
-                            <span className='ps-2'><Image src={second} alt='img' /> </span>
-                            <span className='ps-2'><Image src={third} alt='img' /> </span>
 
-                        </td>
-                        <td><span><Image src={edit} alt='img' /></span><span className='ms-3'><Image src={remove} alt='img' /> </span>  </td>
-                    </tr>
-
-                    <tr>
-                        <td>Savannah Nguyen</td>
-                    
-                        <td>9455575237 </td>
-                        <td>14/02/2022</td>
-                        <td>sara.cruz@example.com</td>
-                        <td>
-                            <span><Image src={first} alt='img' /> </span>
-                            <span className='ps-2'><Image src={second} alt='img' /> </span>
-                            <span className='ps-2'><Image src={third} alt='img' /> </span>
-
-                        </td>
-                        <td><span><Image src={edit} alt='img' /></span><span className='ms-3'><Image src={remove} alt='img' /> </span>  </td>
-                    </tr>
-                    <tr>
-                        <td>Savannah Nguyen</td>
-                    
                         <td>9455575237 </td>
                         <td>14/02/2022</td>
                         <td>sara.cruz@example.com</td>
@@ -97,7 +146,7 @@ function Table() {
                     </tr>
                     <tr>
                         <td>Savannah Nguyen</td>
-                    
+
                         <td>9455575237 </td>
                         <td>14/02/2022</td>
                         <td>sara.cruz@example.com</td>
@@ -110,7 +159,7 @@ function Table() {
                         <td><span><Image src={edit} alt='img' /></span><span className='ms-3'><Image src={remove} alt='img' /> </span>  </td>
                     </tr>
 
-                   
+
                 </tbody>
             </table>
             <div className={styles.bottom}>
@@ -122,7 +171,7 @@ function Table() {
                 <span className='ms-4'><Image src={dleft} alt='img' /></span>
                 <span className='ms-4'><Image src={sleft} alt='img' /></span>
                 <span className='ms-4'><Image src={sright} alt='img' /></span>
-                <span className='ms-4'><Image src={dright} alt='img' /></span>   
+                <span className='ms-4'><Image src={dright} alt='img' /></span>
             </div>
 
             <div className={styles.mtable}>
@@ -149,7 +198,7 @@ function Table() {
                     <ul className={styles.right}>
                         <li>14/07/2022</li>
                         <li>
-                        <span><Image src={first} alt='img' /> </span>
+                            <span><Image src={first} alt='img' /> </span>
                             <span className='ps-2'><Image src={second} alt='img' /> </span>
                             <span className='ps-2'><Image src={third} alt='img' /> </span>
                         </li>
@@ -180,7 +229,7 @@ function Table() {
                     <ul className={styles.right}>
                         <li>14/07/2022</li>
                         <li>
-                        <span><Image src={first} alt='img' /> </span>
+                            <span><Image src={first} alt='img' /> </span>
                             <span className='ps-2'><Image src={second} alt='img' /> </span>
                             <span className='ps-2'><Image src={third} alt='img' /> </span>
                         </li>
@@ -212,7 +261,7 @@ function Table() {
                     <ul className={styles.right}>
                         <li>14/07/2022</li>
                         <li>
-                        <span><Image src={first} alt='img' /> </span>
+                            <span><Image src={first} alt='img' /> </span>
                             <span className='ps-2'><Image src={second} alt='img' /> </span>
                             <span className='ps-2'><Image src={third} alt='img' /> </span>
                         </li>
@@ -220,7 +269,7 @@ function Table() {
                 </div>
             </div>
 
-            
+
 
 
         </div>

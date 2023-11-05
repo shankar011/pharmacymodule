@@ -35,7 +35,7 @@ const page = () => {
                 <div className='d-flex flex-wrap ms-2'>
                     <p>Distributors</p>
                     <div className={styles.search} >
-                      <input placeholder='Search in distributors' />
+                        <input placeholder='Search in distributors' />
                         <Image src={search} alt='img' />
                     </div>
                 </div>
@@ -82,6 +82,10 @@ const page = () => {
                                     </div>
                                 </form>
 
+                            </div>
+
+                            <div className={styles.add}>
+                                <button>Add</button>
                             </div>
 
                         </div>

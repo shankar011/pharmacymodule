@@ -13,8 +13,6 @@ import call from "../images/phone.png";
 import mail from "../images/email.png"
 
 
-
-
 function Table() {
     return (
         <div className={styles.container}>

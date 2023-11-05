@@ -60,8 +60,12 @@
 }
 
 @media screen and (max-width:768px) {
+    .container{
+        margin-left: 1rem;
+    }
     .mpaymets{
         display: block;
+       
     }
     .mpaymets .form-group{
         margin-left: 0px;

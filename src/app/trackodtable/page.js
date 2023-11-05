@@ -19,7 +19,7 @@ const page = () => {
                     <span className={styles.po}>ORD-1562792774779 -  Savannah Nguyen - Rs. 1, 453 </span>
                     <span className={styles.status}>Delivery awaiting</span>
                     <button className={styles.upload}>Upload CSV</button>
-                    <button >Scan invoice</button>
+                    <button className={styles.scan} >Scan invoice</button>
 
                 </div>
 

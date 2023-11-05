@@ -1,7 +1,7 @@
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 70.625rem;
+    width: 80.625rem;
     height: auto;
     padding: 1.25rem 2.5rem;
     flex-direction: column;
@@ -59,7 +59,7 @@
 
     .container {
         object-fit: contain;
-        width: 392px;
+        width: 365.619px;
         height: auto;
         flex-shrink: 0;
         border-radius: 8px;

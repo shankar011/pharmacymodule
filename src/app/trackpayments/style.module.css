@@ -3,7 +3,7 @@
 .main {
     background: #F5F4F7;
     padding: 2%;
-    height: 100vmax;
+    height: auto;
     scroll-behavior: auto;
 }
 
@@ -74,6 +74,7 @@
     /* 133.333% */
 }
 
+
 .mbottom button {
     display: flex;
     width: 150px;
@@ -94,20 +95,40 @@
     line-height: 13.697px;
     /* 142.857% */
 }
+.bottom{
+    display: block;
+}
 
 
 
 
-@media screen and(max-width:768px) {
+
+@media screen and (max-width:768px) {
+
+    
 
     .conatiner{
-        height: auto;
+        background: #F5F4F7;  
+        height: 100dvh;
+       
     }
     .bottom{
-       display: block;
+       display: none;
     }
-    .bottom button{
-        margin: 1rem;
+    .mbottom{
+        display: block;
+        position: relative;
+        margin-top: 45rem;
+        margin-left: 10rem;
+      
+       
     }
+    .mbottom button{
+        margin: 0rem;
+        margin-bottom: 1rem;
+    }
+   
+   
+  
     
 }

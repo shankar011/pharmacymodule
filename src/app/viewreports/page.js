@@ -14,7 +14,7 @@ import stastics from "./images/stastics.png"
 
 const page = () => {
 
-    const data = 
+  const data =
     [
       {
         "id": "stylus",
@@ -48,57 +48,57 @@ const page = () => {
       }
     ]
 
-    return (
-        <div className={styles.container}>
-            <NavBar />
-            <hr />
+  return (
+    <div className={styles.container}>
+      <NavBar />
+      <hr />
 
-            <div className={styles.mreoprts}>
-                <p><Image src={stastics} alt='img'/> Statistics</p> 
-                    <select>
-                        <option>Select Store</option>
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                    </select>
-                                  
-            </div>
+      <div className={styles.mreoprts}>
+        <p><Image src={stastics} alt='img' /> Statistics</p>
+        <select>
+          <option>Select Store</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+        </select>
 
-            <div className={styles.reoprts}>
-                <p>View reports</p>
-                
-                    <select>
-                        <option>Select Store</option>
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                    </select>
-                  <div className='d-flex'>
-                    <button>Today</button>
-                    <button>This week</button>
-                    <button>This month</button>
-                    <button>Last 6 months</button>
-                    <button style={{backgroundColor:"#EDEDFF", color:" #7F82FF"}}>This year</button>     
-                    </div>                 
-            </div>
-           <div className={styles.revenue}>
-           <Image src={revenue}  alt='img'/>
-           </div>
+      </div>
 
-         <div className='d-flex justify-content-evenly mt-5'>
-         <Statistics />
-          <IncomeChart />
-          <Growth />
-         </div>
+      <div className={styles.reoprts}>
+        <p>View reports</p>
 
-            <Cards />
-            <Table />
-            <MyResponsivePie data={data} />
-
+        <select>
+          <option>Select Store</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+        </select>
+        <div className='d-flex'>
+          <button>Today</button>
+          <button>This week</button>
+          <button>This month</button>
+          <button>Last 6 months</button>
+          <button style={{ backgroundColor: "#EDEDFF", color: " #7F82FF" }}>This year</button>
         </div>
-    )
+      </div>
+      <div className={styles.revenue}>
+        <Image src={revenue} alt='img' />
+      </div>
+
+      <div className='d-flex flex-wrap justify-content-evenly mt-5'>
+        <Statistics />
+        <IncomeChart />
+        <Growth />
+      </div>
+
+      <Cards />
+      <Table />
+      <MyResponsivePie data={data} />
+
+    </div>
+  )
 }
 
 export default page

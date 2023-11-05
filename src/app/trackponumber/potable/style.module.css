@@ -75,7 +75,8 @@
 .mtable {
     display: none;
 }
-.mbtable{
+
+.mbtable {
     display: none;
 }
 
@@ -88,25 +89,47 @@
         margin-top: 1rem;
         display: block;
         padding: 0.5rem;
-        width: 392.619px;
+        width: 365.619px;
         height: auto;
         flex-shrink: 0;
         border-radius: 11px;
         background: #FFF;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     }
-    .mbtable{
+
+    .mbtable button {
+        border: none;
+        display: flex;
+        width: 45.5px;
+        padding: 4px 38.5px 4px 39px;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+        border-radius: 490px;
+        background: #7F9CFF;
+        color: #FFF;
+        font-family: 'Raleway';
+        font-size: 7px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 10px;
+        margin-left: 15rem;
+        
+        /* 142.857% */
+    }
+
+    .mbtable {
         margin-top: 1rem;
         display: block;
         padding: 0.5rem;
-        width: 350px;
-        margin-left: 1rem;
+        width: 365px;
         height: auto;
         flex-shrink: 0;
         border-radius: 11px;
         background: #FFF;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     }
+
     .mtable .price {
         margin-left: 1rem;
         color: var(--Yellow, #F2C94C);
@@ -148,12 +171,13 @@
         font-style: normal;
         font-weight: 500;
         line-height: 20px;
+
         /* 142.857% */
     }
 
     .edits {
-       display: flex;
-       justify-content: space-between;
+        display: flex;
+        justify-content: space-between;
     }
 
     .edits img {
@@ -168,7 +192,8 @@
         border: 0.418px solid #858D9D;
         background: #FFF;
     }
-    .mbtable input{
+
+    .mbtable input {
         width: 45.61px;
         height: 21.53px;
         flex-shrink: 0;
@@ -177,4 +202,5 @@
         background: #FFF;
 
     }
+
 }

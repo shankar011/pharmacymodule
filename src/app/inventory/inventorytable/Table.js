@@ -84,7 +84,8 @@ function Table() {
                         <td>Bayer AG </td>
                         <td>SB-12</td>
                         <td>McKesson Corporation</td>
-                        <td><span><Image src={edit} alt='img' /></span><span className='ms-3'><Image src={remove} alt='img' /> </span>  </td>
+                        <td><span><Image onClick={handleButtonClick} src={edit} alt='img' /></span><span className='ms-3'><Image  onClick={deleteButtonClick} src={remove} alt='img' /> </span>  </td>
+
                     </tr>
 
                     <tr>
@@ -96,7 +97,8 @@ function Table() {
                         <td>Bayer AG </td>
                         <td>SB-12</td>
                         <td>McKesson Corporation</td>
-                        <td><span><Image src={edit} alt='img' /></span><span className='ms-3'><Image src={remove} alt='img' /> </span>  </td>
+                        <td><span><Image onClick={handleButtonClick} src={edit} alt='img' /></span><span className='ms-3'><Image  onClick={deleteButtonClick} src={remove} alt='img' /> </span>  </td>
+
                     </tr>
 
                     <tr>
@@ -108,7 +110,8 @@ function Table() {
                         <td>Bayer AG </td>
                         <td>SB-12</td>
                         <td>McKesson Corporation</td>
-                        <td><span><Image src={edit} alt='img' /></span><span className='ms-3'><Image src={remove} alt='img' /> </span>  </td>
+                        <td><span><Image onClick={handleButtonClick} src={edit} alt='img' /></span><span className='ms-3'><Image  onClick={deleteButtonClick} src={remove} alt='img' /> </span>  </td>
+
                     </tr>
                     <tr>
                         <td>Synthroid</td>
@@ -119,7 +122,8 @@ function Table() {
                         <td>Bayer AG </td>
                         <td>SB-12</td>
                         <td>McKesson Corporation</td>
-                        <td><span><Image src={edit} alt='img' /></span><span className='ms-3'><Image src={remove} alt='img' /> </span>  </td>
+                        <td><span><Image onClick={handleButtonClick} src={edit} alt='img' /></span><span className='ms-3'><Image  onClick={deleteButtonClick} src={remove} alt='img' /> </span>  </td>
+
                     </tr>
 
                     <tr>
@@ -131,7 +135,8 @@ function Table() {
                         <td>Bayer AG </td>
                         <td>SB-12</td>
                         <td>McKesson Corporation</td>
-                        <td><span><Image src={edit} alt='img' /></span><span className='ms-3'><Image src={remove} alt='img' /> </span>  </td>
+                        <td><span><Image onClick={handleButtonClick} src={edit} alt='img' /></span><span className='ms-3'><Image  onClick={deleteButtonClick} src={remove} alt='img' /> </span>  </td>
+
                     </tr>
 
 
@@ -144,7 +149,8 @@ function Table() {
                         <td>Bayer AG </td>
                         <td>SB-12</td>
                         <td>McKesson Corporation</td>
-                        <td><span><Image src={edit} alt='img' /></span><span className='ms-3'><Image src={remove} alt='img' /> </span>  </td>
+                        <td><span><Image onClick={handleButtonClick} src={edit} alt='img' /></span><span className='ms-3'><Image  onClick={deleteButtonClick} src={remove} alt='img' /> </span>  </td>
+
                     </tr>
                     <tr>
                         <td>Synthroid</td>
@@ -155,7 +161,8 @@ function Table() {
                         <td>Bayer AG </td>
                         <td>SB-12</td>
                         <td>McKesson Corporation</td>
-                        <td><span><Image src={edit} alt='img' /></span><span className='ms-3'><Image src={remove} alt='img' /> </span>  </td>
+                        <td><span><Image onClick={handleButtonClick} src={edit} alt='img' /></span><span className='ms-3'><Image  onClick={deleteButtonClick} src={remove} alt='img' /> </span>  </td>
+
                     </tr>
 
                     <tr>
@@ -167,7 +174,8 @@ function Table() {
                         <td>Bayer AG </td>
                         <td>SB-12</td>
                         <td>McKesson Corporation</td>
-                        <td><span><Image src={edit} alt='img' /></span><span className='ms-3'><Image src={remove} alt='img' /> </span>  </td>
+                        <td><span><Image onClick={handleButtonClick} src={edit} alt='img' /></span><span className='ms-3'><Image  onClick={deleteButtonClick} src={remove} alt='img' /> </span>  </td>
+
                     </tr>
 
                     <tr>
@@ -179,7 +187,8 @@ function Table() {
                         <td>Bayer AG </td>
                         <td>SB-12</td>
                         <td>McKesson Corporation</td>
-                        <td><span><Image src={edit} alt='img' /></span><span className='ms-3'><Image src={remove} alt='img' /> </span>  </td>
+                        <td><span><Image onClick={handleButtonClick} src={edit} alt='img' /></span><span className='ms-3'><Image  onClick={deleteButtonClick} src={remove} alt='img' /> </span>  </td>
+
                     </tr>
                     <tr>
                         <td>Synthroid</td>
@@ -190,7 +199,8 @@ function Table() {
                         <td>Bayer AG </td>
                         <td>SB-12</td>
                         <td>McKesson Corporation</td>
-                        <td><span><Image src={edit} alt='img' /></span><span className='ms-3'><Image src={remove} alt='img' /> </span>  </td>
+                        <td><span><Image onClick={handleButtonClick} src={edit} alt='img' /></span><span className='ms-3'><Image  onClick={deleteButtonClick} src={remove} alt='img' /> </span>  </td>
+
                     </tr>
 
                     <tr>
@@ -202,7 +212,8 @@ function Table() {
                         <td>Bayer AG </td>
                         <td>SB-12</td>
                         <td>McKesson Corporation</td>
-                        <td><span><Image src={edit} alt='img' /></span><span className='ms-3'><Image src={remove} alt='img' /> </span>  </td>
+                        <td><span><Image onClick={handleButtonClick} src={edit} alt='img' /></span><span className='ms-3'><Image  onClick={deleteButtonClick} src={remove} alt='img' /> </span>  </td>
+
                     </tr>
 
 

@@ -158,11 +158,21 @@
 
 @media screen and (max-width:768px) {
 
-    .container button{
-        display: none;
+    .container button {
+        display: block;
+        margin-left: 0rem;
+        padding: 0rem;
     }
-    .container input{
+
+    .container input {
         margin-left: 0px;
     }
+
+    .search{
+        display: none;
+    }
+
+   
+
 
 }

@@ -145,6 +145,10 @@
     margin-bottom: 5px;
 }
 
+.add{
+    margin-left: 80%;
+}
+
 @media screen and (max-width:768px) {
     .container {
         margin: 0rem;
@@ -154,6 +158,12 @@
         display: block;
         object-fit: contain;
     }
+  
+    .add{
+
+        margin-left: 15rem;
+    }
+    
     .search {
         display: block;
        

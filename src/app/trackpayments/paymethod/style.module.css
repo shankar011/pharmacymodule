@@ -157,16 +157,17 @@
 
 @media screen and (max-width:768px) {
     .container {
-        padding: 5px;
+       padding: 3px;
         position: absolute;
         margin: 0px;
         display: block;
-        width: 392px;
+        width: 370px;
         height: auto;
         flex-shrink: 0;
         border-radius: 8px;
         border: 1px solid #E6E6E6;
-        background: #FFF;
+        background: white;
+       object-fit: contain;
     }
 
     .container p {
@@ -185,6 +186,9 @@
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
+    }
+    .check label{
+        font-size: 0.8rem;
     }
     .method{
         margin-left: 1.5rem;

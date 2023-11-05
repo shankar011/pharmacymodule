@@ -69,3 +69,10 @@
     margin-left: 1.3rem;
     /* 200% */
 }
+
+@media screen and(max-width:768px) {
+    .container{
+        display: block;
+     
+    }
+}

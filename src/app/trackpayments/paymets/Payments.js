@@ -11,13 +11,11 @@ const Payments = () => {
 
             <form className={styles.mform}>
                 <div className="form-group">
-                    <label >Payment method <span><Image src={star} alt="img" /> </span></label>
-                    <select className="form-control">
-                        <option>BHIM UPI</option>
-                        <option>PhonePe</option>
+                <div className="form-group ">
+                    <label className='ms-3' >Your name<span><Image src={star} alt="img" /> </span></label>
+                    <input type="text" className="form-control" placeholder="First Name" />
 
-
-                    </select>
+                </div>
                 </div>
 
                 <div className={styles.minput}>

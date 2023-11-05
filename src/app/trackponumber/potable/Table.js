@@ -204,7 +204,7 @@ const Table = () => {
                         <li>&#8377;969.95</li>
                     </ul>
                 </div>
-
+                <button>Pay</button>
             </div>
 
         </div>

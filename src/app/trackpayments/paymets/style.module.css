@@ -48,9 +48,12 @@
 
 @media screen and (max-width:768px) {
     .container {
+        object-fit: contain;
        display: block;
        flex-wrap: wrap;
        height: auto;
+       width:370px ;
+       
     }
     .container form{
         display: flex;

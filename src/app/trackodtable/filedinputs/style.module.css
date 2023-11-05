@@ -71,12 +71,14 @@
 @media screen and (max-width:768px) {
     .container {
         object-fit: contain;
-        width: 22rem;
+        width: 23rem;
+        margin-left: 0.7rem;
         height: auto;
     }
 
     .mpaymets {
         display: block;
+      
         padding-left: 1rem;
         padding-bottom: 1rem;
     }
